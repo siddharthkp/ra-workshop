@@ -1,0 +1,54 @@
+{
+  "name": "ra-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@styled-system/css": "^5.0.23",
+    "deepmerge": "^4.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-a11y": "^5.2.4",
+    "@storybook/addon-actions": "^5.2.4",
+    "@storybook/addon-backgrounds": "^5.2.4",
+    "@storybook/addon-docs": "^5.2.4",
+    "@storybook/addon-links": "^5.2.4",
+    "@storybook/addon-viewport": "^5.2.4",
+    "@storybook/addons": "^5.2.4",
+    "@storybook/preset-scss": "^1.0.2",
+    "@storybook/react": "^5.2.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0"
+  }
+}

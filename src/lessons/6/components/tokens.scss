@@ -1,0 +1,57 @@
+:root {
+  --gray-100: #f4f4f4;
+  --gray-200: #eee;
+  --gray-300: #ddd;
+  --gray-400: #bbb;
+  --gray-500: #999;
+  --gray-600: #777;
+  --gray-700: #666;
+  --gray-800: #444;
+  --gray-900: #333;
+
+  --white: #fff;
+
+  --pink-500: #d95988;
+  --pink-700: #df3e7b;
+  --pink-900: #c22b65;
+
+  --blue-300: #4fb4de;
+  --blue-500: #3a8bbb;
+  --blue-700: #1e6189;
+  --blue-900: #0c3f5d;
+
+  --green-500: #7bbb5e;
+  --green-700: #5b9540;
+  --green-900: #3b6d25;
+
+  --red-300: #ed615c;
+}
+
+:root {
+  --brand-500: var(--pink-500);
+  --brand-700: var(--pink-700);
+  --brand-900: var(--pink-900);
+
+  --primary-500: var(--brand-500);
+  --primary-700: var(--brand-700);
+  --primary-900: var(--brand-900);
+
+  --accent-300: var(--blue-300);\n--accent-500: var(--blue-500);
+  --accent-700: var(--blue-700);
+  --accent-900: var(--blue-900);
+
+  --success-500: var(--green-500);
+  --success-700: var(--green-700);
+  --success-900: var(--green-900);
+
+  --text-primary: var(--gray-800);
+  --text-primary-light: var(--gray-700);
+  --text-secondary: var(--gray-600);
+  --text-subtle: var(--gray-500);
+
+  --sizes-avatar-xsmall: 16px;
+  --sizes-avatar-small: 30px;
+  --sizes-avatar-medium: 48px;
+  --sizes-avatar-large: 80px;
+  --sizes-avatar-xlarge: 100px;
+}

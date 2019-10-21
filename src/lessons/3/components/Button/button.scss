@@ -1,0 +1,50 @@
+.btn {
+  font-size: 13px;
+  height: 40px;
+  padding: 0px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.btn.primary {
+  background-color: #d95988;
+  color: #fff;
+
+  &:hover {
+    background-color: #df3e7b;
+  }
+  &:focus {
+    background-color: #c22b65;
+  }
+  &:disabled {
+    background-color: #d95988;
+  }
+}
+
+.btn.secondary {
+  // default styles
+
+  &:hover {
+  }
+  &:focus {
+  }
+  &:disabled {
+  }
+}
+
+.btn.accent {
+  // default styles
+
+  &:hover {
+  }
+  &:focus {
+  }
+  &:disabled {
+  }
+}

@@ -1,0 +1,20 @@
+import { Preview, Story, Props } from "@storybook/addon-docs/blocks";
+import { Shot } from "./";
+
+import * as stories from "./shot.stories.js";
+
+# Shot
+
+Shots are used to show a small version of design work with related information, like a thumbnail.
+
+<Preview withSource="open">
+  <Story id="shot--simple" />
+</Preview>
+
+<Props of={Shot} />
+
+A shot can have attachments on it:
+
+<Preview withSource="open">
+  <Story id="shot--attachment" />
+</Preview>

@@ -1,0 +1,21 @@
+import { Preview, Story, Props } from "@storybook/addon-docs/blocks";
+import { Button } from "./";
+
+# Button
+
+Buttons are used to make common actions immediately visible and easy to perform with one click, tap, or keypress.
+
+<Preview withSource="open">
+  <Story id="docs-button--primary" />
+</Preview>
+
+<Props of={Button} />
+
+The `Button` supports multiple variants described by the `variant` prop.
+
+<Preview>
+  <Story id="docs-button--primary" />
+  <Story id="docs-button--secondary" />
+  <Story id="docs-button--accent" />
+  <Story id="docs-button--success" />
+</Preview>

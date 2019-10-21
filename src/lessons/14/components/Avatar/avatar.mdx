@@ -1,0 +1,24 @@
+import { Preview, Story, Props } from "@storybook/addon-docs/blocks";
+import { Avatar } from "./";
+
+# Avatar
+
+Avatars are used to show a thumbnail representation of an individual or business in the interface.
+
+<Preview withSource="open">
+  <Story id="avatar--simple" />
+</Preview>
+
+<Props of={Avatar} />
+
+The avatar supports multiple sizes for different use cases
+
+- xsmall: Used when space is very limited, example in the top navigation or in a shot
+- small: Used in a list of avatars
+- medium: Used when the user is the second most important information on the page, example: shot page
+- large: Used when the user is the highlight of the page, example: user's profile
+- xlarge: Used to really showcase a user, example: /designers page
+
+<Preview>
+  <Story id="avatar--sizes" />
+</Preview>
